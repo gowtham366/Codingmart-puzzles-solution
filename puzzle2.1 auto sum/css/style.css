@@ -1,0 +1,19 @@
+#frm{
+	margin-top: 10%;
+	margin-left:40%;
+	height: 415px;
+	width: 210px;
+	background-color: rgb(242, 242, 242);
+	border: 1px solid black;
+}
+p{
+	margin-left: 15px;
+	font-weight: normal;
+}
+input{
+	margin-left: 15px;
+	outline-style: thick;
+}
+#dot{
+	margin-left: 15px;
+}

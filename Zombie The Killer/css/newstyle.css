@@ -1,0 +1,67 @@
+.panel{
+	position: relative;
+	height: 600px;
+	width: 1024px;
+	margin-left: 10px;
+	overflow: hidden;
+	background-image: url('../img/b1.jpg');
+	border: 1px solid blue;
+}
+
+.person img{
+	position: relative;
+	height: 150px;
+}
+
+.person{
+	position: absolute;
+	bottom: 0px;
+}
+.turn{
+	position: absolute;
+	padding-top: 20px;
+	left: 44%;
+	font-weight: bold;
+	text-align: center;
+	color: lightyellow;
+}
+.dice{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 45%;
+	top: 10%;
+	background-color: white;
+	outline: 2px solid green;
+	outline-offset: -3px;
+}
+#num{
+	color: red;
+	font-weight: bold;	
+	text-align: center;
+	margin-top: 20px;
+}
+#ovr{
+	position: absolute;
+	bottom: 0px;
+	background-color: yellow;
+	font-weight: bold;
+	height: 60px;
+	width: 1024px;
+	cursor: pointer;
+	display: none;
+}
+#own{
+	position: absolute;
+	bottom: 0%;
+	background-color: green;
+	font-weight: bold;
+	height: 60px;
+	width: 1024px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	display: none;
+
+}
